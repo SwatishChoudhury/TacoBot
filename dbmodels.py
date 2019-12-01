@@ -11,6 +11,8 @@ db_proxy.initialize(db)
 class Chats(Model):                                                        # chats-model is here for future updates only
     cid = BigIntegerField()
     invited_by = BigIntegerField()
+    less = BooleanField(default=False)
+    mids = TextField(default='[]')
 
     class Meta:
         database = db
