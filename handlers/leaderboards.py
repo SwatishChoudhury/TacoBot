@@ -121,6 +121,6 @@ def taco_top_callback(bot, message):
 taco_top_handler = MessageHandler(callback=taco_top_callback,
                                   filters=Filters.group & Filters.command(['tacotop', 'tacotop@YetAnotherTacoBot']))
 
-123
 
-']))
+
+
