@@ -58,7 +58,7 @@ def my_tacos_callback(bot, message):
 
 my_tacos_handler = MessageHandler(
                                   callback=my_tacos_callback,
-                                  filters=Filters.group & Filters.command(['mytacos', 'mytacos@HeyTacoBot']))
+                                  filters=Filters.group & Filters.command(['mytacos', 'mytacos@YetAnotherTacoBot']))
 
 
 def taco_top_callback(bot, message):
@@ -119,4 +119,8 @@ def taco_top_callback(bot, message):
 
 
 taco_top_handler = MessageHandler(callback=taco_top_callback,
-                                  filters=Filters.group & Filters.command(['tacotop', 'tacotop@HeyTacoBot']))
+                                  filters=Filters.group & Filters.command(['tacotop', 'tacotop@YetAnotherTacoBot']))
+
+123
+
+']))
